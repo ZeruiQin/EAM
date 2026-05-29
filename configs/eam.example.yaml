@@ -1,0 +1,17 @@
+paths:
+  trajectories_dir: artifacts/trajectories
+  graph_env_dir: artifacts/graph_env
+  gold_paths_file: artifacts/gold_paths.json
+  training_output_dir: artifacts/training_runs/eam_mcts
+
+exploration:
+  branch: 3
+  depth: 10
+  max_steps: 10
+  seed: 2
+  n_task_combinations: 1
+  max_task_index: -1
+  reinitialize: false
+  package_name:
+  user_task:
+  task_dir:

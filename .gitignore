@@ -1,0 +1,62 @@
+# Python
+*.py[cod]
+*$py.class
+__pycache__/
+.cache/
+.pytest_cache/
+.ipynb_checkpoints/
+.mypy_cache/
+.pytype/
+.ruff_cache/
+.lock/
+
+# Packaging
+/*.egg-info
+.eggs/
+build/
+dist/
+poetry.lock
+
+# Local IDE and OS files
+*.DS_Store
+.idea/
+.vscode/
+.claude/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+config.local.py
+
+# AndroidWorld / EAM generated artifacts
+artifacts/
+docker_exploration_output*/
+exploration_output/
+baseline_tmp/
+data_AW/graph_env/
+data_prepare/path_raw/
+data_prepare/graph_data*/
+task_explorer/knowledge_base/
+self_training/train/output/
+self_training/train/MCTS/logs/
+
+# Model checkpoints and large binary outputs
+checkpoints/
+outputs/
+runs/
+wandb/
+swanlog/
+*.ckpt
+*.pt
+*.pth
+*.safetensors
+
+# Trajectory and KG export blobs
+*.pkl
+*.pkl.zst
+*.jsonl
+
+# Local screenshots / temporary files
+screenshot/
+screenshots/

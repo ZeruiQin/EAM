@@ -1,0 +1,14 @@
+# Extra dependencies for EAM offline construction, MCTS training, and online inference.
+-r requirements.txt
+
+neo4j==5.28.1
+openai
+pinecone
+PyYAML==6.0.2
+safetensors==0.5.3
+sentence-transformers==5.0.0
+torch
+transformers==4.47.1
+accelerate
+peft
+zstandard==0.23.0
