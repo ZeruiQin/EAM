@@ -1,7 +1,7 @@
 # Executable Agentic Memory for GUI Agent
 
 <p align="center">
-  <img src="assets/eam_overview.png" alt="Executable Agentic Memory overview" width="90%">
+  <img src="assets/overview.png" alt="Executable Agentic Memory overview" width="90%">
 </p>
 
 <p align="center">
